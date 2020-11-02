@@ -1,0 +1,51 @@
+incomplete dialysis;;2
+missing HD;;2
+missed several dialysis;;2
+missed his scheduled;;2
+missed her scheduled;;2
+missing her scheduled;;2
+missing his scheduled;;2
+missed her HD;;2
+missed his hd;;2
+noncompliance with hd;;2
+noncompliance with dialysis;;2
+did not show up for;;1
+the setting of a missed hd;;2
+not show up for his;;1
+setting of a missed hd session;;2
+usually mwf dialysis, missed dialysis;;2
+missed hd;;2
+chest ct : no show;;1
+by fluid overload from missed hd;;2
+after several days of missed hd;;2
+th/sa, missed dialysis;;2
+missed esrd session;;2
+outpatient hd sessions;;2
+Appointment non-adherence;;2
+missed dialysis sessions;;2
+missed appointments;;2
+missing hemodialysis;;2
+no show;;2
+missed cvvh sessions;;2
+missed hd sessions;;2
+missed hemodialysis sessions;;2
+missed an appointment;;2
+due for HD but missed it;;2
+missed dialysis;;2
+missed hemodialysis;;2
+missed HD;;2
+negative cycle of inability to access;;1
+missing dialysis;;2
+missed cvvh session;;2
+missing hd;;2
+missed dialysis session;;2
+missed hd session;;2
+did not show up for his;;1
+did not show up for her;;1
+missing several sessions;;2
+missed hemodialysis session;;2
+missed HD session;;2
+missing HD session;;2
+did not show up at appointment;;2
+missed several sessions;;2
+long gap without medical attention;;2

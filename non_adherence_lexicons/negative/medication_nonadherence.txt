@@ -1,0 +1,16 @@
+compliant with insulin;;2
+compliant with diuretics;;2
+compliant with seizure;;2
+compliant with bp meds;;2
+adherent to bp meds;;2
+adherent to blood pressure meds;;2
+compliant to blood pressure meds;;2
+compliant to aeds;;2
+has not missed any doses;;2
+adherent to aeds;;2
+adherent to seizure;;2
+adherent to diuretics;;2
+adherent to lantus;;2
+adherent to insulin;;2
+has not missed any med;;2
+has taken all doses;;2

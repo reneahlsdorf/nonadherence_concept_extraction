@@ -1,0 +1,87 @@
+unclear how compliant;;1
+difficult to know how compliant;;1
+issues with compliance;;2
+issues with patient compliance;;2
+variable compliance;;1
+?compliance;;1
+? compliance;;1
+changes/non-compliance;;2
+nonadherent;;2
+non-adherent;;2
+improper use of;;2
+improper administration of;;2
+mis-use;;1
+improper;;1
+difficulty with compliance;;2
+infrequent takes;;2
+non-compliant;;2
+against advice;;2
+stopped taking;;2
+cannot afford;;1
+infrequently takes;;2
+occational takes;;2
+run out;;1
+ran out;;1
+could not afford;;2
+occassional takes;;2
+non complient;;2
+non-complient;;2
+compliance issue;;2
+compliance issues;;2
+intermittantly takes;;2
+intermittently takes;;2
+non complience;;2
+non-complience;;2
+occasional takes;;2
+intermittently takes;;2
+obstinate;;1
+not been taking;;2
+poorly-controlled;;2
+misses;;1
+poor compliance;;2
+Doubt that patient is indeed compliant;;2
+not completely compliant;;2
+not been compliant;;2
+poorly controlled;;2
+occationally takes;;2
+missing;;1
+occcasionally takes;;2
+occaisionally takes;;2
+occ takes;;2
+occassionaly takes;;2
+occas takes;;2
+occasionaly takes;;2
+ocassionally takes;;2
+rarely takes;;2
+sometimes takes;;2
+occassionally takes;;2
+missed;;1
+occasionally takes;;2
+questionable compliance;;2
+indiscretions;;1
+indescretions;;1
+indescretion;;1
+indiscretion;;1
+non-adherance;;2
+non compliance;;2
+poor adherence;;2
+non-complicance;;2
+nonadherence;;2
+noncompliance;;2
+non adherence;;2
+non-compliance;;2
+non adherent;;2
+noncomplience;;2
+non-adherence;;2
+has been non compliant;;2
+non compliant;;2
+non-complain;;2
+non-complaint;;2
+has been noncompliant;;2
+noncompliant non-compliant;;2
+not always compliant;;2
+has been non-compliant;;2
+poorly compliant;;2
+noncomplient;;2
+noncompliant;;2
+Non-Compliant;;2

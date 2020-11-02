@@ -1,0 +1,72 @@
+logger_enabled: true
+debugging: true
+njobs: 8 # Number of CPU cores to be used
+overall_project_name: nonadherence_notes
+generated_df_dir: generated_nonadherence
+
+full_pipeline: ["catchall_label_filtering", "validation"]
+
+google_setup:
+  google_project_id: hst-953-2019
+
+bigquery_mimic_lexicon_note_search: 
+  output_note_file: _filtered.parquet
+  lexicon_dir: non_adherence_lexicons
+  cohort_file: cohort_na.csv
+  ignore_categories: [ECG, Echo, Radiology]
+  debug_download: false
+  use_bqstorage_api: true
+  dump_all_notes: false
+
+negex_negation_filter_dummy:
+  input_note_file: _filtered.parquet 
+  output_note_file: _negated_dummy.parquet 
+  lexicon_dir: non_adherence_lexicons
+  debug_check: false
+  keep_categories: ['Consult', 'Case Management', 'Nursing', 'Discharge summary', 'Social Work', 'Nutrition', 'Rehab Services', 'Nursing/other', 'Respiratory ', 'Physician ', 'Pharmacy', 'General']
+
+negex_negation_filter:
+  input_note_file: _filtered.parquet 
+  output_note_file:  _negated.parquet 
+  negex_triggers: negex_triggers.txt
+  lexicon_dir: non_adherence_lexicons
+  debug_check: false
+  use_only_positive_lexicons: false
+  use_old_negation_scheme: false
+  dump_all_matched_notes: true
+  add_fullstop_after_newline_uppercase: false
+  keep_categories: ['Consult', 'Case Management', 'Nursing', 'Discharge summary', 'Social Work', 'Nutrition', 'Rehab Services', 'Nursing/other', 'Respiratory ', 'Physician ', 'Pharmacy', 'General']
+
+
+validation_compare_pipeline_results:
+  validation_set_file: validationset_nonadherence_2019.csv
+  file_prediction_a: _done_old.parquet
+  file_prediction_b: _done.parquet
+  file_sentence_info_a: _negated_old.parquet
+  file_sentence_info_b: _negated.parquet
+  get_examples_for_categories: ['Appointment_Nonadherence', 'Refusal_Against_Medical_Advise_Nonadherence', 'Nos_Nonadherence', 'Medication_Nonadherence', 'Dietary_Nonadherence']
+  ignore_b: false
+
+    
+validation_table:
+   validation_set_file: validationset_nonadherence_2019.csv 
+   input_note_files: 
+      - _all_out_catchall_label_filtering.parquet
+
+validation:
+  validation_set_file: validationset_nonadherence_2019.csv 
+  input_note_file: _all_out_catchall_label_filtering.parquet
+
+
+word_distance_cohort_matcher:
+  input_note_file: _negated.parquet 
+  output_note_file:  _corrected.parquet
+  word_distance: 10
+  word_filter_dir: nonadherence_diet_drugs_correction
+  debug_check: false
+
+catchall_label_filtering:
+  input_note_file: _corrected.parquet 
+  output_note_file: _done.parquet 
+  catchall: nos_nonadherence
+
